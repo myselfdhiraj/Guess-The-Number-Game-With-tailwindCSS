@@ -1,5 +1,5 @@
-let randomNumber = parseInt(Math.random()*100 +1);
-// console.log(randomNumber,'first time');
+let randomNumber = parseInt(Math.random()*20 +1);
+console.log(randomNumber,'first time');
 
 // variables 
 const userInput = document.querySelector('.user_input');
@@ -70,8 +70,8 @@ function endGame(){
 }
 function newGame(){
     mainBtn.addEventListener('click',function(e){
-        randomNumber = parseInt(Math.random()*100 +1);
-        // console.log(randomNumber,"secound time")
+        randomNumber = parseInt(Math.random()*20 +1);
+        console.log(randomNumber,"secound time")
         noguess = 1
         prevGuess = []
         playGame = true;
