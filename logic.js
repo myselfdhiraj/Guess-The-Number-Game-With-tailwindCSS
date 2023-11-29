@@ -25,7 +25,7 @@ function validateGuess(guess){
         alert("Enter a Number, Cheratctor Don't Allowed");
     } else if(guess < 1){
         alert("Enter Bigger Number");
-    } else if(guess > 100){
+    } else if(guess > 20){
         alert("Enter Samlled Number");
     }
     else{
