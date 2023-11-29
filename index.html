@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number Game: By Dhiraj Arya</title>
+    <link rel="stylesheet" href="./dist/style.css">
+</head>
+<body class="bg-blue-700 grid place-content-center h-screen w-screen">
+    <div class="bg-slate-200 w-auto h-auto px-2 rounded-lg">
+        <h1 class="bg-blue-900 text-fuchsia-50 text-center px-10 text-2xl font-samibold">Number Guessing Game</h1>
+        <div class="box w-full h-full px-14 py-5 text-center">
+            <p class="text-blue-700 font-medium text-l">Guess a Number Betwean 1-100</p>
+            <form class="w-full text-center">
+                <input type="text" class="user_input w-full border-solid border-2 border-black px-3 py-1 my-3 block rounded-md">
+                <input type="submit" class="submit_btn bg-blue-700 py-2 px-8 text-ml text-white font-medium rounded-md">
+            </form>
+            <div class="result-box shadow-2xl my-6 bg-white p-4 w-full">
+                <p class="font-medium">Guessed number are: <span class="guess block"></span></p>
+                <p class="font-medium">NO. of guesses: <span class="No_guess"></span></p>
+            </div>
+            <div class="result font-medium text-blue-700 text-2xl"> </div>
+            <button hidden class="main_btn bg-zinc-900 mt-3 text-lg font-medium text-white px-10 py-3 rounded-md">Start Game</button>
+        </div>
+    </div>
+</body>
+<script src="logic.js"></script>
+</html>
